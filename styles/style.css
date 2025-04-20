@@ -1,1 +1,54 @@
-/* место для вашего кода */
+.header {
+    background-color: #ccc;
+
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 50px 92px 50px 96px;
+}
+.logo-link {
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+.header__links-list {
+    display: flex;
+    justify-content: space-between;
+}
+.header__links-list-item {
+    list-style: circle;
+}
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+.header__link {
+  
+}
+.header__link_active{
+    text-decoration: none;
+}
+address {
+    max-width: 240px;
+    justify-self: end;
+}
+main {
+    display: grid;
+    gap: 30px;
+}
+.cover {
+    background-image: url(../images/cover.jpg);
+    height: 757px;
+    
+}
+.lots {
+ height: 757px;
+ background-color: #ccc;
+}
+.about {
+    height: 595px;
+    background-color: #ccc;
+}
+.footer {
+    height: 180px;
+    background-color: #eee;
+}
