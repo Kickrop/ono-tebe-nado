@@ -34,7 +34,7 @@
 .header__address {
     max-width: 240px;
     justify-self: end;
-    font-family: Railwayregular;
+    font-family: Ralewayregular;
     font-size: 18px;
     line-height: 24.3px;
     font-style: normal;
@@ -43,11 +43,78 @@ main {
     display: grid;
     gap: 30px;
 }
+
 .cover {
     background-image: url(../images/cover.jpg);
     height: 757px;
-    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
 }
+.overlay {
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.cover-title {
+    position: relative;
+    color:#ffffff;
+    font-family: Ralewaybold;
+    font-size: 100px;
+    text-transform: uppercase;
+    /* word-spacing: 30px; */
+    letter-spacing: 33px;
+    z-index: 10;
+}
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+.aligned-text {
+    display: block;
+}
+.aligned-text_center {
+    text-align: center;
+}
+.aligned-text_right {
+    text-align: right;
+}
+.cover__description {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.cover__description-text {
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family: Ralewayregular;
+    font-size: 22px;
+    line-height: 28px;
+    display: inline-block;
+}
+.letter-spacing-extended {
+    word-spacing: 20px;
+}
+.bet-button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-family: Ralewayregular;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 11px 31px 12px 32px;
+    cursor: pointer;
+}
+
 .lots {
  height: 757px;
  background-color: #ccc;
