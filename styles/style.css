@@ -1,19 +1,19 @@
 .header {
     background-color: #ffffff;
-
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 50px 92px 50px 96px;
+    padding: 92px 50px 96px 50px;
 }
-.logo-link {
+.header__logo {
     display: block;
     width: 148px;
     height: 105px;
 }
 .header__links-list {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    gap: 27px;
 }
 .header__links-list-item {
     list-style: circle;
@@ -23,7 +23,7 @@
     list-style-type: none;
 }
 .header__link {
-    font-family: Railwayregular;
+    font-family: Ralewayregular;
     font-size: 18px;
     text-decoration: none;
     border-bottom: 1px solid #000;
