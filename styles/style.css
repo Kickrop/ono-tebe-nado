@@ -1,5 +1,5 @@
 .header {
-    background-color: #ccc;
+    background-color: #ffffff;
 
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -13,23 +13,31 @@
 }
 .header__links-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .header__links-list-item {
     list-style: circle;
+    
 }
 .header__links-list-item_no-bullit {
     list-style-type: none;
 }
 .header__link {
-  
+    font-family: Railwayregular;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
 }
 .header__link_active{
-    text-decoration: none;
+    border-bottom: none;
 }
-address {
+.header__address {
     max-width: 240px;
     justify-self: end;
+    font-family: Railwayregular;
+    font-size: 18px;
+    line-height: 24.3px;
+    font-style: normal;
 }
 main {
     display: grid;
